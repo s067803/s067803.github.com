@@ -7,3 +7,9 @@ categories: diary
 もうあの人の番号一生忘れへんわ。
 
 引退したら、まじで人生かけよう。
+
+---
+# MEMO #
+{% highlight git %}
+.site/
+{% endhighlight %}
