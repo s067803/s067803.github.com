@@ -1,5 +1,6 @@
 ---
 layout: post
+categories: math diary
 ---
 
 院試験初日終わった。  
