@@ -1,0 +1,12 @@
+---
+layout: post
+categories: diary
+---
+
+How install ruby_dev_kit for windows ?
+======================================
+
+{ % highlight ruby % }
+ruby dk.rb install
+ruby dk.rb install
+{ % endhilight % }
