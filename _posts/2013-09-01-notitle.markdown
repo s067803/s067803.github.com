@@ -6,7 +6,7 @@ categories: diary
 How install ruby_dev_kit for windows ?
 ======================================
 
-{% highlight ruby %}
+{% highlight bat %}
 ruby dk.rb install
 ruby dk.rb install
 {% endhighlight %}
