@@ -4,9 +4,13 @@ categories: diary
 ---
 
 How install ruby_dev_kit for windows ?
-======================================
+--------------------------------------
 
 {% highlight bat %}
 ruby dk.rb install
 ruby dk.rb install
 {% endhighlight %}
+
+- Diary
+Man of steelを見た。あんまり良くはなかった。
+驚きにかけるからかな。スケールは大きかったけども。
