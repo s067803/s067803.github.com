@@ -2,15 +2,13 @@
 layout: post
 ---
 
-HOW TO HOME DIRECTORY'S NAME TO JAPANESE
-========================================
+# HOW TO HOME DIRECTORY'S NAME TO JAPANESE #
 
 {% highlight bat %}
 LANG=C xdg-user-dirs-gtk-update
 {% endhighlight %}
 
-INSTALLED APP
-=============
+# INSTALLED APP #
 
 - gnome do
 - ruby, rubygem
