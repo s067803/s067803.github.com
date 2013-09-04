@@ -1,0 +1,10 @@
+---
+layout: post
+---
+
+HOW TO HOME DIRECTORY'S NAME TO JAPANESE
+========================================
+
+{% highlight bat %}
+LANG=C xdg-user-dirs-gtk-update
+{% endhighlight %}
