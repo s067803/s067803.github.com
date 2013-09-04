@@ -8,3 +8,13 @@ HOW TO HOME DIRECTORY'S NAME TO JAPANESE
 {% highlight bat %}
 LANG=C xdg-user-dirs-gtk-update
 {% endhighlight %}
+
+INSTALLED APP
+=============
+
+- gnome do
+- ruby, rubygem
+- jekyll
+- chromium
+- vlc media player
+- ibus-mozc
