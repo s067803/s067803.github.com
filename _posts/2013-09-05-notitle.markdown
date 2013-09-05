@@ -8,3 +8,11 @@ layout: post
 {% highlight py %}
 print format(100, 'b')
 {% endhighlight %}
+
+---
+
+journalに関して。
+やはり、ノートとルーズリーフを使い分けるべき。
+ノートには、日記とか、アイデアなど。
+ルーズリーフには、カテゴリがあるもの。
+数学とかセミナーとか。
