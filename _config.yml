@@ -3,3 +3,5 @@ name: S067803 SPACE
 permalink: /:categories/:year-:month-:day/:title/
 pygments: true
 markdown: redcarpet
+
+excerpt_separator: ""
