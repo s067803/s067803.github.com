@@ -1,0 +1,6 @@
+---
+layout: post
+title: none
+---
+test
+message
