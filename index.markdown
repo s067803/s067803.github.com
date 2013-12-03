@@ -12,5 +12,5 @@ title: Your New Jekyll Site
   </ul>
   <a class="twitter-timeline" href="https://twitter.com/su104003" data-widget-id="407771890686492672">@su104003 からのツイート</a>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  <iframe src="http://wwww.s067803.github.io">iframe</iframe>
+  <iframe src="http://s067803.github.io">iframe</iframe>
 </div>
