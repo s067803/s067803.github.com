@@ -1,3 +1,4 @@
+#! /usr/bin/python
 import os
 
 _add_all = "git add ."
