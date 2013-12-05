@@ -45,8 +45,16 @@ ul.posts li {
 
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
+  font-family: freemono, Monaco, "Courier New", monospace;
   font-size: 80%;
+}
+
+.container {
+    width: 60em;
+    margin: auto;
+    border-left: solid #ddd 0.1em;
+    border-right: solid #ddd 0.1em;
+
 }
 
 /*****************************************************************************/
@@ -54,14 +62,6 @@ ul.posts span {
 /* Site
 /*
 /*****************************************************************************/
-
-.container {
-    width: 50em;
-    margin: auto;
-    border-left: double #ddd 0.3em;
-    border-right: double #ddd 0.3em;
-
-}
 
 .site {
   font-size: 115%;
