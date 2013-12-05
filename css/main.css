@@ -55,6 +55,14 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+.container {
+    width: 50em;
+    margin: auto;
+    border-left: double #ddd 0.3em;
+    border-right: double #ddd 0.3em;
+
+}
+
 .site {
   font-size: 115%;
   text-align: justify;
