@@ -4,8 +4,9 @@ _site/
 
 # vim swap file
 *.swp
+*~
 
 .*
 
+# NOT ignore files
 !.gitignore
-*~
