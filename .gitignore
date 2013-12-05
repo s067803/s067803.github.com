@@ -1,12 +1,11 @@
 # .gitignore file
 
 _site/
+_old/
 
-# vim swap file
+# swap file
 *.swp
 *~
-
-.*
 
 # NOT ignore files
 !.gitignore
