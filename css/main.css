@@ -103,6 +103,7 @@ ul.posts span {
   color: #000;
 }
 
+/* meta */
 .site .meta {
   color: #aaa;
 }
@@ -148,14 +149,13 @@ ul.posts span {
     width: 30;
     float: right;
     color: red;
-    background: #EEE;
     margin-bottom: 1em;
 }
 
 .site .right iframe {
     width: 30em;
     height: 40em;
-    border: 0.1em dotted black;
+    border: 0em;
 }
 
 /*****************************************************************************/
