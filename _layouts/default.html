@@ -15,30 +15,47 @@
     </head>
     <body>
 
+        <!--Start Container-->
         <div class="container">
-          <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-              <a class="extra" href="/">home</a>
+            <!--Start Site-->
+            <div class="site">
+                <!--Start Header-->
+                <div class="header">
+                    <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+                    <!--<a class="extra" href="/">home</a>-->
+                </div>
+                <!--End Header-->
+                <!--Start Menu-->
+                <div class="menu">
+                    {{ content }}
+                </div>
+                <!--End Menu-->
+                <!--Start Right-->
+                <div class="right">
+                    <iframe src="about.html" name="content">content</iframe>
+                </div>
+                <!--End Right-->
+                <!--Start Footer-->
+                <div class="footer">
+                    <div class="contact">
+                        <p>
+                        Your Name<br />
+                        What You Are<br />
+                        orange.s067803(a)gmail.com
+                        </p>
+                    </div>
+                    <div class="contact">
+                        <p>
+                        <a href="http://github.com/yourusername/">s067803</a><br />
+                        <a href="http://twitter.com/yourusername/">none</a><br />
+                        </p>
+                    </div>
+                </div>
+                <!--End Footer-->
             </div>
-                {{ content }}
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  Your Name<br />
-                  What You Are<br />
-                  orange.s067803(a)gmail.com
-                </p>
-              </div>
-              <div class="contact">
-                <p>
-                  <a href="http://github.com/yourusername/">s067803</a><br />
-                  <a href="http://twitter.com/yourusername/">none</a><br />
-                </p>
-              </div>
-            </div>
-          </div> <!-- /site -->
-        </div> <!-- /container -->
+            <!--End Site-->
+        </div>
+        <!--End Container-->
 
     </body>
 </html>

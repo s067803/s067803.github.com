@@ -14,7 +14,7 @@ title: Your New Jekyll Site
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-	  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a></li>
+	  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" target="content"><strong>{{ post.title }}</strong></a></li>
     {% endfor %}
   </ul>
   <!--<a class="twitter-timeline" width="100px" href="https://twitter.com/su104003" data-widget-id="407771890686492672">@su104003</a>-->
