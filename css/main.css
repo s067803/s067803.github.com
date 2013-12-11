@@ -23,11 +23,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+p {
+    margin: 1em 0;
+    font: 1em  freemono, sans-serif;
+}
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: dodgerblue; }
+a:hover   { color: black; }
+a:visited { color: dodgerblue; }
 
 /*****************************************************************************/
 /*
@@ -87,11 +90,11 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  color: #a00;
+  color: dodgerblue;
 }
 
 .site .header h1.title a:hover {
-  color: #000;
+  color: orange;
 }
 
 .site .header a.extra {
