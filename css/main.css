@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13.34px monospace, Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p {
     margin: 1em 0;
-    font: 1em  freemono, sans-serif;
+    font-family: monospace, Arial, sans-serif;
 }
 
 a         { color: dodgerblue; }
@@ -58,7 +58,7 @@ ul.posts span {
 /*****************************************************************************/
 .container {
     width: 60em;
-    border-left: solid #ddd 0.1em;
+    /*border-left: solid #ddd 0.1em;*/
     border-right: solid #ddd 0.1em;
     margin: auto;
     padding: 0em;
@@ -73,7 +73,7 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 50em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -143,13 +143,13 @@ ul.posts span {
 
 /* menu */
 .site .menu {
-    width: 10;
+    width: 20em;
     float: left;
 }
 
 /* right */
 .site .right {
-    width: 30;
+    width: 30em;
     float: right;
     color: red;
     margin-bottom: 1em;
@@ -162,7 +162,13 @@ ul.posts span {
 }
 
 .right .post {
-    background: blue;
+    text-align: left;
+}
+.right h2 {
+    text-align: right;
+}
+.right .meta {
+    text-align: right;
 }
 
 /*****************************************************************************/

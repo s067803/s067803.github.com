@@ -6,6 +6,7 @@ _old/
 # swap file
 *.swp
 *~
+.*
 
 # NOT ignore files
 !.gitignore
