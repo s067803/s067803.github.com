@@ -58,9 +58,9 @@ ul.posts span {
 /*****************************************************************************/
 .container {
     width: 60em;
-    border-left: solid #000 10em;
     border-right: solid #ddd 0.1em;
-    margin: 0 0 auto 0;
+    border-left: solid #ddd 0.1em;
+    margin: auto;
     padding: 0em;
 }
 
