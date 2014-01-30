@@ -14,18 +14,23 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px monospace, Helvetica, Arial, sans-serif;
+  font: 13.34px serif, monospace, Helvetica, Arial;
   font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%;
+}
 
-h1 { margin-bottom: 1em; }
+h1 {
+  margin-bottom: 1em;
+  padding: 1em;
+  background: #eee;
+}
 p {
     margin: 1em 0;
-    font-family: monospace, Arial, sans-serif;
+    font-family: serif, monospace, Arial;
 }
 
 a         { color: dodgerblue; }
@@ -48,7 +53,7 @@ ul.posts li {
 
 ul.posts span {
   color: #aaa;
-  font-family: freemono, Monaco, "Courier New", monospace;
+  font-family: serif, freemono, Monaco, "Courier New", monospace;
   font-size: 80%;
 }
 /*****************************************************************************/
@@ -58,8 +63,8 @@ ul.posts span {
 /*****************************************************************************/
 .container {
     width: 60em;
-    border-right: solid #ddd 0.1em;
-    border-left: solid #ddd 0.1em;
+    /*border-right: solid #ddd 0.1em;*/
+    /*border-left: solid #ddd 0.1em;*/
     margin: auto;
     padding: 0em;
 }
