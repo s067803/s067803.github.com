@@ -1,61 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/main.css">
 
-    </head>
-    <body>
+  </head>
+  <body>
 
-        <!--Start Container-->
-        <div class="container">
-            <!--Start Site-->
-            <div class="site">
-                <!--Start Header-->
-                <div class="header">
-                    <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-                    <!--<a class="extra" href="/">home</a>-->
-                </div>
-                <!--End Header-->
-                <!--Start Menu-->
-                <div class="menu">
-                    {{ content }}
-                </div>
-                <!--End Menu-->
-                <!--Start Right-->
-                <div class="right">
-                    <iframe src="about.html" name="content">content</iframe>
-                </div>
-                <!--End Right-->
-                <!--Start Footer-->
-                <div class="footer">
-                    <div class="contact">
-                        <p>
-                        Your Name<br />
-                        What You Are<br />
-                        orange.s067803(a)gmail.com
-                        </p>
-                    </div>
-                    <div class="contact">
-                        <p>
-                        <a href="http://github.com/yourusername/">s067803</a><br />
-                        <a href="http://twitter.com/yourusername/">none</a><br />
-                        </p>
-                    </div>
-                </div>
-                <!--End Footer-->
-            </div>
-            <!--End Site-->
+    <!--Start Container-->
+    <div class="container">
+      <!--Start Site-->
+      <div class="site">
+
+        <!--Start Header-->
+        <div class="header">
+          <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+          <!--<a class="extra" href="/">home</a>-->
         </div>
-        <!--End Container-->
+        <!--End Header-->
 
-    </body>
+        <!--Start Menu-->
+        <div class="menu">
+          {{ content }}
+        </div>
+        <!--End Menu-->
+        <!--Start Right-->
+        <div class="right">
+          <iframe src="about.html" name="content">content</iframe>
+        </div>
+        <!--End Right-->
+        <!--Start Footer-->
+        <div class="footer">
+          <div class="contact">
+            <p>
+            Your Name<br />
+            What You Are<br />
+            orange.s067803(a)gmail.com
+            </p>
+          </div>
+          <div class="contact">
+            <p>
+            <a href="http://github.com/s067803/">s067803</a><br />
+            <!--<a href="http://twitter.com/yourusername/">none</a><br />-->
+            </p>
+          </div>
+        </div>
+        <!--End Footer-->
+      </div>
+      <!--End Site-->
+    </div>
+    <!--End Container-->
+
+  </body>
 </html>

@@ -24,37 +24,73 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  margin-bottom: 1em;
+  /*margin-bottom: 1em;*/
   padding: 1em;
-  background: #eee;
+  background: #222;
 }
 p {
     margin: 1em 0;
     font-family: serif, monospace, Arial;
 }
 
-a         { color: dodgerblue; }
+/*a         { color: dodgerblue; }*/
+a         { color: gray; }
 a:hover   { color: black; }
-a:visited { color: dodgerblue; }
+a:visited { color: gray; }
 
 /*****************************************************************************/
 /*
 /* Home
 /*
 /*****************************************************************************/
-ul.posts {
+table.posts {
   list-style-type: none;
+  border: solid #ccc 1px;
   margin-bottom: 2em;
+  width: 90%;
+  padding: 0.5em;
+}
+table.profile {
+  list-style-type: none;
+  border: solid #ccc 1px;
+  margin-bottom: 2em;
+  width: 90%;
+  padding: 0.5em;
+}
+table.link {
+  list-style-type: none;
+  border: solid #ccc 1px;
+  margin-bottom: 2em;
+  width: 90%;
+  padding: 0.5em;
 }
 
-ul.posts li {
+table.posts li {
   line-height: 1.75em;
 }
 
-ul.posts span {
+table.posts span { /* テーブルの内部 */
   color: #aaa;
   font-family: serif, freemono, Monaco, "Courier New", monospace;
   font-size: 80%;
+}
+table.posts caption { /* テーブルのタイトル */
+  padding: 0.5em;
+  background: #222;
+  font-family: serif, freemono, monospace;
+  color: white;
+}
+table.profile caption { /* テーブルのタイトル */
+  padding: 0.5em;
+  background: #222;
+  font-family: serif, freemono, monospace;
+  color: white;
+}
+table.link caption { /* テーブルのタイトル */
+  padding: 0.5em;
+  background: #222;
+  font-family: serif, freemono, monospace;
+  color: white;
 }
 /*****************************************************************************/
 /*
@@ -95,11 +131,11 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  color: dodgerblue;
+  /*color: dodgerblue;*/
+  color: white;
 }
-
 .site .header h1.title a:hover {
-  color: orange;
+  color: gray;
 }
 
 .site .header a.extra {
