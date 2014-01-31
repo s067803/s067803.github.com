@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   /*margin-bottom: 1em;*/
   padding: 1em;
-  background: #222;
+  background: #444;
 }
 p {
     margin: 1em 0;
@@ -47,21 +47,22 @@ table.posts {
   list-style-type: none;
   border: solid #ccc 1px;
   margin-bottom: 2em;
-  width: 90%;
+  width: 100%;
   padding: 0.5em;
 }
+table.posts a:hover { color: #444; }
 table.profile {
   list-style-type: none;
   border: solid #ccc 1px;
   margin-bottom: 2em;
-  width: 90%;
+  width: 100%;
   padding: 0.5em;
 }
 table.link {
   list-style-type: none;
   border: solid #ccc 1px;
   margin-bottom: 2em;
-  width: 90%;
+  width: 100%;
   padding: 0.5em;
 }
 
@@ -74,21 +75,9 @@ table.posts span { /* テーブルの内部 */
   font-family: serif, freemono, Monaco, "Courier New", monospace;
   font-size: 80%;
 }
-table.posts caption { /* テーブルのタイトル */
+table caption { /* テーブルのタイトル */
   padding: 0.5em;
-  background: #222;
-  font-family: serif, freemono, monospace;
-  color: white;
-}
-table.profile caption { /* テーブルのタイトル */
-  padding: 0.5em;
-  background: #222;
-  font-family: serif, freemono, monospace;
-  color: white;
-}
-table.link caption { /* テーブルのタイトル */
-  padding: 0.5em;
-  background: #222;
+  background: #444;
   font-family: serif, freemono, monospace;
   color: white;
 }
@@ -98,7 +87,7 @@ table.link caption { /* テーブルのタイトル */
 /*
 /*****************************************************************************/
 .container {
-    width: 60em;
+    width: 80em;
     /*border-right: solid #ddd 0.1em;*/
     /*border-left: solid #ddd 0.1em;*/
     margin: auto;
@@ -114,7 +103,7 @@ table.link caption { /* テーブルのタイトル */
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 50em;
+  width: 80em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -184,20 +173,21 @@ table.link caption { /* テーブルのタイトル */
 
 /* menu */
 .site .menu {
-    width: 20em;
+    width: 18em;
     float: left;
+    padding-right: 2em;
 }
 
 /* right */
 .site .right {
-    width: 30em;
+    width: 60em;
     float: right;
     color: red;
     margin-bottom: 1em;
 }
 
 .site .right iframe {
-    width: 30em;
+    width: 60em;
     height: 40em;
     border: 0em;
 }
@@ -206,7 +196,7 @@ table.link caption { /* テーブルのタイトル */
     text-align: left;
 }
 .right h2 {
-    text-align: right;
+    text-align: left;
 }
 .right .meta {
     text-align: right;
