@@ -13,7 +13,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Hammersmith One', freemono;
+  font-family: 'Belleza', freemono;
 }
 
 html, body { height: 100%; }
@@ -35,7 +35,7 @@ h1 {
   background: #444;
 }
 p {
-    margin: 1em 0;
+    /*margin: 0em 1em;*/
     /*font-family: serif, monospace, Arial;*/
 }
 
@@ -54,7 +54,9 @@ table.posts {
   border: solid #ccc 1px;
   margin-bottom: 2em;
   width: 100%;
-  padding: 0.5em;
+  font-size: 0.8em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 table.posts a:hover { color: #444; }
 table.profile {
@@ -62,14 +64,9 @@ table.profile {
   border: solid #ccc 1px;
   margin-bottom: 2em;
   width: 100%;
-  padding: 0.5em;
-}
-table.link {
-  list-style-type: none;
-  border: solid #ccc 1px;
-  margin-bottom: 2em;
-  width: 100%;
-  padding: 0.5em;
+  font-size: 0.8em;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
 }
 
 table.posts li {
@@ -180,21 +177,21 @@ table caption { /* テーブルのタイトル */
 
 /* menu */
 .site .menu {
-    width: 18em;
+    width: 12em;
     float: left;
     padding-right: 2em;
 }
 
 /* right */
 .site .right {
-    width: 40em;
+    width: 44em;
     float: right;
     color: red;
     margin-bottom: 1em;
 }
 
 .site .right iframe {
-    width: 40em;
+    width: 44em;
     height: 40em;
     border: 0em;
 }
