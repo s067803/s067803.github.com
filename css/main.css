@@ -3,18 +3,24 @@
 /* Common
 /*
 /*****************************************************************************/
+/* Font loading */
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  src: url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC);
+}
 
 /* Global Reset */
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Alegreya Sans SC', freemono;
 }
 
 html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px serif, monospace, Helvetica, Arial;
+  /*font: 13.34px serif, monospace, Helvetica, Arial;*/
   font-size: small;
   text-align: center;
 }
@@ -30,7 +36,7 @@ h1 {
 }
 p {
     margin: 1em 0;
-    font-family: serif, monospace, Arial;
+    /*font-family: serif, monospace, Arial;*/
 }
 
 /*a         { color: dodgerblue; }*/
@@ -72,13 +78,14 @@ table.posts li {
 
 table.posts span { /* テーブルの内部 */
   color: #aaa;
-  font-family: serif, freemono, Monaco, "Courier New", monospace;
+  /*font-family: , freemono, Monaco, "Courier New", monospace;*/
   font-size: 80%;
 }
 table caption { /* テーブルのタイトル */
   padding: 0.5em;
   background: #444;
-  font-family: serif, freemono, monospace;
+  /*font-family: serif, freemono, monospace;*/
+
   color: white;
 }
 /*****************************************************************************/
