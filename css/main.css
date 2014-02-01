@@ -21,7 +21,7 @@ html, body { height: 100%; }
 body {
   background-color: #FFF;
   /*font: 13.34px serif, monospace, Helvetica, Arial;*/
-  font-size: small;
+ font-size: 1em;
   text-align: center;
 }
 
