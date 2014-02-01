@@ -94,7 +94,7 @@ table caption { /* テーブルのタイトル */
 /*
 /*****************************************************************************/
 .container {
-    width: 80em;
+    width: 60em;
     /*border-right: solid #ddd 0.1em;*/
     /*border-left: solid #ddd 0.1em;*/
     margin: auto;
@@ -110,7 +110,7 @@ table caption { /* テーブルのタイトル */
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 80em;
+  width: 60em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -187,14 +187,14 @@ table caption { /* テーブルのタイトル */
 
 /* right */
 .site .right {
-    width: 60em;
+    width: 40em;
     float: right;
     color: red;
     margin-bottom: 1em;
 }
 
 .site .right iframe {
-    width: 60em;
+    width: 40em;
     height: 40em;
     border: 0em;
 }
