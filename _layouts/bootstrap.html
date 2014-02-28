@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!--META-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }}</title>
+    <!--CSS-->
+    <link href="css/layout.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!--Start Container-->
+    <div class="container">
+      <!--Start Site-->
+      <div class="site">
+
+        <!--Start Header ====================================================-->
+        <div class="header">
+          <ul class="nav nav-pills">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Posts</a></li>
+          </ul>
+          <!--<h1 class="title"><a href="/">{{ site.name }}</a></h1>-->
+          <!--[><a class="extra" href="/">home</a><]-->
+        </div>
+        <!--Jumbotron-->
+        <div class="jumbotron">
+          <h1>Toppatsu</h1>
+        </div>
+        <!--End Header-->
+
+        <!--Start Right =====================================================-->
+        <div class="contents">
+          <iframe src="about.html" name="content">content</iframe>
+        </div>
+        <!--End Right-->
+
+        <!--Start Menu ======================================================-->
+        <div class="menu">
+          {{ content }}
+        </div>
+        <!--End Menu-->
+
+        <!--Start Footer ====================================================-->
+        <div class="footer">
+          <div class="contact">
+            <p>
+            Your Name<br />
+            What You Are<br />
+            orange.s067803(a)gmail.com
+            </p>
+          </div>
+          <div class="contact">
+            <p>
+            <a href="http://github.com/s067803/">s067803</a><br />
+            <!--<a href="http://twitter.com/yourusername/">none</a><br />-->
+            </p>
+          </div>
+        </div>
+        <!--End Footer-->
+      </div>
+      <!--End Site-->
+    </div>
+    <!--End Container-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
