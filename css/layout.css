@@ -96,16 +96,14 @@
 }
 
 /* contents */
-.site .contents {
-    width: 34em;
-    float: left;
-    margin-bottom: 1em;
+.site .frame iframe {
+  width: 34em;
+  height: 40em;
+  float: left;
+  margin-bottom: 1em;
+  border: 0em;
 }
-
-.site .contents iframe {
-    width: 34em;
-    height: 40em;
-    border: 0em;
+.site .contents {
 }
 
 .contents .post {
