@@ -3,9 +3,10 @@ layout: bootstrap
 title: Your New Jekyll Site
 ---
 
+<!--==================================================================== HOME-->
 <div id="home">
 
-<!--POST BEGIN-->
+<!--==================================================================== POST-->
 <div class="post">
   {% for post in site.posts %}
   <span>{{ post.date | date_to_string }}</span> &raquo;
@@ -17,3 +18,4 @@ title: Your New Jekyll Site
 </div>
 <!--POST END-->
 
+</div>
