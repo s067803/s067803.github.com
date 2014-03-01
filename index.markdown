@@ -1,21 +1,17 @@
 ---
 layout: bootstrap
-title: Your New Jekyll Site
+title: Toppatz
 ---
-
-<!--==================================================================== HOME-->
-<div id="home">
-
-<!--==================================================================== POST-->
-<div class="post">
-  {% for post in site.posts %}
-  <span>{{ post.date | date_to_string }}</span> &raquo;
-  <a href="{{ post.url }}" target="content">
-    <strong>{{ post.title }}</strong>
-  </a>
-  <br />
-  {% endfor %}
+<div class="note">
+  <p>welcome</p>
 </div>
-<!--POST END-->
 
+<div class="menu">
+  <div class="post">
+    {% for post in site.posts %}
+    <span>{{ post.date | date_to_string }}</span> &raquo;
+    <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+    <br />
+    {% endfor %}
+  </div>
 </div>

@@ -95,24 +95,26 @@
     padding-right: 2em;
 }
 
-/* contents */
-.site .frame iframe {
+/*****************************************************************************/
+/* Note
+/*****************************************************************************/
+.site .note iframe {
   width: 34em;
   height: 40em;
   float: left;
   margin-bottom: 1em;
   border: 0em;
 }
-.site .contents {
+.site .note {
 }
 
-.contents .post {
+.note .post {
     text-align: left;
 }
-.contents h2 {
+.note h2 {
     text-align: left;
 }
-.contents .meta {
+.note .meta {
     text-align: left;
 }
 

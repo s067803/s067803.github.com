@@ -8,11 +8,11 @@
 
     <title>{{ page.title }}</title>
 
+    <!-- INCLUDES -->
     <!-- Custom CSS -->
-    <link href="css/layout.css" rel="stylesheet">
-
+    <link href="/css/layout.css" rel="stylesheet">
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,46 +28,34 @@
       <!--Start Site-->
       <div class="site">
 
-        <!--Start Header ====================================================-->
+        <!--========================================================= Header -->
         <!--Jumbotron-->
         <div class="jumbotron">
-          <h1>Toppatsu</h1>
-        </div>
-        <!--End Header-->
+          <h1>Toppatz</h1>
+        </div> <!--End Header-->
 
-        <!--Start frame =====================================================-->
-        <div class="frame">
-          <iframe src="about.html" name="content">content</iframe>
+        <!--=================================================================-->
+        <div class="contents">
+        {{ content }}
         </div>
-        <!--End Right-->
 
-        <!--Start Menu ======================================================-->
-        <div class="menu">
-          {{ content }}
-        </div>
-        <!--End Menu-->
-
-        <!--Start Footer ====================================================-->
+        <!--========================================================= Footer -->
         <div class="footer">
           <div class="contact">
             <p>
             Your Name<br />
-            What You Are<br />
-            orange.s067803(a)gmail.com
+            su104003(a)gmail.com
             </p>
           </div>
           <div class="contact">
             <p>
-            <a href="http://github.com/s067803/">s067803</a><br />
+            <a href="http://github.com/s067803/">My Github</a><br />
             <!--<a href="http://twitter.com/yourusername/">none</a><br />-->
             </p>
           </div>
-        </div>
-        <!--End Footer-->
-      </div>
-      <!--End Site-->
-    </div>
-    <!--End Container-->
+        </div> <!--End Footer-->
+      </div> <!--End Site-->
+    </div> <!--End Container-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
