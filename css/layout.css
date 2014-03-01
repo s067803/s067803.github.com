@@ -109,7 +109,7 @@
 /*****************************************************************************/
 .site .menu {
     width: 10em;
-    background: green;
+    /*background: green;*/
     margin-right: 1em;
     float: right;
 }
@@ -119,7 +119,7 @@
 .site .note {
   width: 36em;
   height: auto;
-  background: gray;
+  /*background: gray;*/
   margin-right: 1em;
   float: left;
 }
