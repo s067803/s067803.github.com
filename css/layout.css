@@ -4,7 +4,7 @@
 /*
 /*****************************************************************************/
 .container {
-    width: 50em;
+    /*width: 50em;*/
     margin: auto;
     padding: 0em;
 }
@@ -112,7 +112,7 @@ h4 {
 /*
 /*****************************************************************************/
 .contents {
-  width: 50em;
+  /*width: 50em;*/
   height: 30em;
   margin: auto;
   padding: 0em 1em;
@@ -121,7 +121,7 @@ h4 {
 /* Menu
 /*****************************************************************************/
 .site .menu {
-    width: 10em;
+    /*width: 10em;*/
     /*background: green;*/
     margin-right: 1em;
     float: right;
@@ -144,7 +144,7 @@ h4 {
 /* Note
 /*****************************************************************************/
 .site .note {
-  width: 36em;
+  /*width: 36em;*/
   height: auto;
   /*background: gray;*/
   margin-right: 1em;

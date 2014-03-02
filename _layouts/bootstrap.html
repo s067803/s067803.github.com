@@ -42,22 +42,26 @@
         </div> <!--End Header-->
 
         <!--=================================================================-->
-        <div class="contents">
-          {{ content }}
-          <div class="menu">
-            <div class="about inset">
-              <h4><strong>About</strong></h4>
-              <p>Naoki Ueda<br />
-              OPU, 3G<br />
-              su104003(a)gmail.com</p>
-            </div>
-            <div class="post inset">
-              <h4><strong>Post</strong></h4>
-              {% for post in site.posts %}
-              <span>{{ post.date | date_to_string }}</span> &raquo;
-              <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
-              <br />
-              {% endfor %}
+        <div class="contents row">
+          <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+            {{ content }}
+          </div>
+          <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+            <div class="menu">
+              <div class="about inset">
+                <h4><strong>About</strong></h4>
+                <p>Naoki Ueda<br />
+                OPU, 3G<br />
+                su104003(a)gmail.com</p>
+              </div>
+              <div class="post inset">
+                <h4><strong>Post</strong></h4>
+                {% for post in site.posts %}
+                <span>{{ post.date | date_to_string }}</span> &raquo;
+                <a href="{{ post.url }}"><strong>{{ post.title }}</strong></a>
+                <br />
+                {% endfor %}
+              </div>
             </div>
           </div>
         </div>
