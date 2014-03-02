@@ -4,7 +4,7 @@
 /*
 /*****************************************************************************/
 .container {
-    /*width: 50em;*/
+    width: 50em;
     margin: auto;
     padding: 0em;
 }
@@ -118,19 +118,19 @@ h4 {
   padding: 0em 1em;
 }
 /*****************************************************************************/
-/* Menu
+/* Sidebar
 /*****************************************************************************/
-.site .menu {
+.site .sidebar {
     /*width: 10em;*/
     /*background: green;*/
     margin-right: 1em;
     float: right;
 }
-.site .menu .post {
+.site .sidebar .post {
   padding: 15px;
   margin: 0 -15px 15px;
 }
-.site .menu .about {
+.site .sidebar .about {
   padding: 15px;
   margin: 0 -15px 15px;
   font-size: 0.7em;
