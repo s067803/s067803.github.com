@@ -3,8 +3,12 @@
 /* Container
 /*
 /*****************************************************************************/
+body {
+  /*border-top: #1e90ff solid 10.0px;*/
+  border-top: black solid 10.0px;
+}
 .container {
-    width: 50em;
+  width: 100%;
     margin: auto;
     padding: 0em;
 }
@@ -113,6 +117,8 @@ h4 {
 /*****************************************************************************/
 .contents {
   /*width: 50em;*/
+  width: 20em;
+  background: blue;
   height: 30em;
   margin: auto;
   padding: 0em 1em;
@@ -122,15 +128,10 @@ h4 {
 /*****************************************************************************/
 .site .sidebar {
     /*width: 10em;*/
-    /*background: green;*/
     margin-right: 1em;
     float: right;
 }
-.site .sidebar .post {
-  padding: 15px;
-  margin: 0 -15px 15px;
-}
-.site .sidebar .about {
+.site .sidebar .sector {
   padding: 15px;
   margin: 0 -15px 15px;
   font-size: 0.7em;
