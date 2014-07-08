@@ -2,7 +2,9 @@
 layout: post
 title: manの内容を出力する
 ---
+
 例えば less の内容を出力したければ、
+
 <code>
 man less | col -b > man.txt
 </code>
