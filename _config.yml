@@ -1,8 +1,13 @@
 name: Naoki Ueda
 
+highlighter: pygments
+
 permalink: /:categories/:year-:month-:day/:title/
 pygments: true
 markdown: redcarpet
 
-excerpt_separator: ""
+redcarpet:
+  fenced_code_blocks: true
+
+excerpt_separator: "\n\n" # why?
 
