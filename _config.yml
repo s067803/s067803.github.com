@@ -3,11 +3,9 @@ name: Naoki Ueda
 highlighter: pygments
 
 permalink: /:categories/:year-:month-:day/:title/
-pygments: true
-markdown: redcarpet
 
-redcarpet:
-  fenced_code_blocks: true
+markdown: redcarpet
 
 excerpt_separator: "\n\n" # why?
 
+exclude: [ 'TODO', 'README.markdown' ]
